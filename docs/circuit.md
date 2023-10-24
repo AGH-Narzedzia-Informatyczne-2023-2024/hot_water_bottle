@@ -1,3 +1,6 @@
+[TODO]
+changes to this description will be made once [variations](variations.md) are settled upon.
+
 # Text description of lamp circuit
 
   ### Microcontroller: Arduino nano (clone/compatibile)
@@ -16,10 +19,10 @@ The physical configuration of these LED strips (i.e. whether, for example HW, an
 #### Connected to microcontroller:
   - 6 MOSFETs, one for each light channel controlling actual LED strips.\
     These are to be connected to pins that allow PWM signal. Since Arduino nano have two of PWM pins connected to the single clock - it's probably a good idea to connect one of white channels and one of RGB channels to each clock for fluid changes.
-  - Two-Three potentiometers, depending on version. (versions)
+  - Two-Three potentiometers, depending on [version](variations.md).
   - button for changing the modes
   - couple of indicator LEDs, depending on version. At least 2.
-  - 
+
 
 
 [^1]: probably called "Ice blue" which is still white, just heavily shifted to the blue part of spectrum.
