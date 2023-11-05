@@ -16,3 +16,16 @@
         - might be neccessary due to power constraints
     - [ ] 2 modes with "save" - when you switch mode brightness of lit lights is preserved, you just switch the controls
         - Allows greater flexibility, mainly white light with tint of some colour.
+    - [ ] 3 modes - 2 as one above and additional mode with pre-programmed animations
+  
+3) Dumb/smart RGB strip:
+    - [X] simple RGB strip
+        - cheaper built
+    - [ ] adresable RGB strip
+        - much more flexibility in operation
+        - superset of simple RGB functions - functionalities can be added later
+
+4) analog/digital steering
+    - [ ] potentiometers
+    - [ ] encoders
+  
