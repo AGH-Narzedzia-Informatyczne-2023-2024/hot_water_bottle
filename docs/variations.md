@@ -25,7 +25,10 @@
         - much more flexibility in operation
         - superset of simple RGB functions - functionalities can be added later
 
-4) analog/digital steering
+4) Analog/digital steering:
     - [ ] potentiometers
     - [ ] encoders
   
+5) Indicator set:
+    - [ ] LED diodes - mode indicator,input indicator
+    - [ ] LCD 16x2 display

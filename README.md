@@ -1,3 +1,4 @@
+![lyskiposting](animals/lyski1.jpg?raw=true)
 ## Projekt grupy Hot water bottle
 
 # lampa RGBW 
