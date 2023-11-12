@@ -34,4 +34,4 @@ MIT License - [LICENSE](LICENSE)
 ### Pavel:
 > Popatrzyłem co robią inni i zdecydowałem że robić coś użytecznego będzie liepiej niż robić jakąś gre oraz możemy wyróżnić się w taki sposób.
 ### Anton:
-> Wybrałem ten projekt, ponieważ nie mam doświadczenia w pracy w podobnym duchu i dlatego zdecydowałem, że projekt na lampie RGB będzie dobrym doświadczeniem do dalszej pracy
+> Wybrałem ten projekt, ponieważ nie mam doświadczenia w pracy w podobnym duchu i dlatego zdecydowałem, że projekt na lampie RGB będzie dobrym doświadczeniem do dalszej pracy.
