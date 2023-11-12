@@ -13,3 +13,19 @@ Linki:
  - [**możliwe wersje**](docs/variations.md) (!)
  - [ramowy opis kodu](misc/plan.md)
  - [opis hardware'u sterownika](docs/circuit.md)
+
+
+## Autory
+
+* **Juliusz Kocinski**
+* **Margarita Kitaeva**
+* **Sofia Knyshoid**
+* **Pavel Kapitsa**
+* **Maksim Dziatkou**
+* **Anton Perakhod**
+
+
+## Licencja
+
+MIT License - [LICENSE.md](LICENSE.md)
+
