@@ -1,5 +1,3 @@
-![lyskiposting](animals/lyski1.jpg?raw=true)
-[Oto Whisky, mój pjesek - tylko trochę źle przeczytałem zadanie, więc to info jest on-line, a zdjęcie dodane z komputera]
 ## Projekt grupy Hot water bottle
 
 # lampa RGBW 
@@ -29,3 +27,6 @@ Linki:
 
 MIT License - [LICENSE.md](LICENSE.md)
 
+## P.S. Najlepszy piesek
+![lyskiposting](animals/lyski1.jpg?raw=true)
+[Oto Whisky, mój pjesek - tylko trochę źle przeczytałem zadanie, więc to info jest on-line, a zdjęcie dodane z komputera]
