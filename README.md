@@ -25,7 +25,7 @@ Linki:
 
 ## Licencja
 
-MIT License - [LICENSE.md](LICENSE.md)
+MIT License - [LICENSE](LICENSE)
 
 ## Dlaczego wybraliśmy doakładnie taki projekt:
 
