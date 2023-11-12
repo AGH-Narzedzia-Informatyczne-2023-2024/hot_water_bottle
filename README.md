@@ -31,5 +31,5 @@ MIT License - [LICENSE](LICENSE)
 
 ### Margarita:
 > Jak dla mnie, pomyślałam, że to będzie bardzo ciekawym doświadczeniem. Mamy dość wielką grupę (6 osób), ale uważam, że to też nie jest źle, bo przez to możemy nauczyć się pracować w zespołe. Co do projektu, to bardzo mi się podoba, że potem możemy sprobować zrobić to w życiu i zobaczyć, jak to wszystko działa, co już jest bardzo ciekawe i inspirujące
-> ### Pavel:
+### Pavel:
 > Popatrzyłem co robią inni i zdecydowałem że robić coś użytecznego będzie liepiej niż robić jakąś gre oraz możemy wyróżnić się w taki sposób.
