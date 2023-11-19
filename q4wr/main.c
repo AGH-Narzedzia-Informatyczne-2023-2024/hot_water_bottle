@@ -1,43 +1,35 @@
 
 #include <iostream>
-#include <locale>
-
-float a, b, c;
-char d;
-int p;
-int main()
-{
-
-    while (p != 2)
-    {
-        printf("1 = calculator \n 2 - exit \n");
-        scanf("%d", &p);
-        switch (p)
-        {
-        case 1:
-        {
-            float c;
-            printf("First number ");
-            scanf("%d", &a);
-            printf("Action with numbers ");
-            scanf("%s", &d);
-            printf("Second number ");
-            scanf("%d", &b);
-            if (d == '+')
-                c = a + b;
-            if (d == '-')
-                c = a - b;
-            if (d == '*')
-                c = a * b;
-            if (d == '/')
-                c = a / b;
-            system("cls");
-        }
-        case 2:
-        {
-            break;
-        }
-        }
+ 
+int main(){
+    int a = 0;
+    int b = 0;
+    char operation;
+    std::cout << "Enter first number: ";
+    std::cin >> a;
+    std::cout << "Enter second number: ";
+    std::cin >> b;
+    std::cout << "Enter operation: ";
+    std::cin >> operation;
+ 
+    switch (operation){
+    case '-':
+        std::cout << "a - b = " << a - b <<'\n';
+        break;
+    case '+':
+        std::cout << "a + b = " << a + b << '\n';
+        break;
+    case '*':
+        std::cout << "a * b = " << a * b << '\n';
+        break;
+    case '/':
+        std::cout << "a / b = " << a / b << '\n';
+        break;
+    default:
+        std::cout << "Error\n";
+    }
+    return 0;
+}
         printf("Result = %2.f \n", c);
     }
 }
