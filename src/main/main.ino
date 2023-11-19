@@ -40,3 +40,20 @@ bool color_mode()
  *       be linear as well
  */
 int hue(bool mode, LED_channel channel, int hue)
+
+void setup() {
+  pinMode(PotPin, INPUT);
+
+  //light channels
+  pinMode(HWpin, OUTPUT);
+  pinMode(NWpin, OUTPUT);
+  pinMode(CWpin, OUTPUT);
+  pinMode(Rpin, OUTPUT);
+  pinMode(Gpin, OUTPUT);
+  pinMode(Bpin, OUTPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+}
