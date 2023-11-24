@@ -52,7 +52,8 @@ int main(void) {
 
     printf("Here was my mistake");
     printf("-------------------------------------------");
-    printf("\n");
+    char a;
+    scanf("%c", &a);
 
     printf("Ile bajtow zajmuja tablice: %d %d %d %d\n",sizeof(t0),sizeof(t1),sizeof(t2),sizeof(t3));
     printf("\nt3: ");
