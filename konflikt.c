@@ -1,5 +1,7 @@
 #include <stdio.h>
-
+#include <stdlib.h>
+#include <math.h>
+//a place for your conflicts
 int main(void) {
 
     char  t0[3][5] = {0};
@@ -8,14 +10,32 @@ int main(void) {
 //    char  t2[3][5] = {"Ala","ma","kota"};
     char *t3[3]    = {"Ala","ma","kota"};
 
-// Wstepne wypelnienie tablicy t0:
+// Wstepne wypelnienie tablicy _____ t0:
+
+//zaba)
+/*
+           .--._.--.
+          ( O     O )
+          /   . .   \
+         .`._______.'.
+        /(           )\
+      _/  \  \   /  /  \_
+   .~   `  \  \ /  /  '   ~.
+  {    -.   \  V  /   .-    }
+_ _`.    \  |  |  |  /    .'_ _
+>_       _} |  |  | {_       _<
+ /. - ~ ,_-'  .^.  `-_, ~ - .\
+         '-'|/   \|`-`
+*/
+
     char *p;
     for(p=(char*)t0; p<(char*)t0+15; ++p) *p = '_';
-// Wpisanie slow do tablicy t0:
+// Wpisanie ____ slow do tablicy t0:
     t0[0][0]='A'; t0[0][1]='l'; t0[0][2]='a'; 
     t0[1][0]='m'; t0[1][1]='a';  
     t0[2][0]='k'; t0[2][1]='o'; t0[2][2]='t'; t0[2][3]='a'; 
     
+
     printf("t0: ");
     for(size_t i = 0; i<3; ++i) {
         for(size_t j = 0; j<5; ++j) {
@@ -24,6 +44,10 @@ int main(void) {
     }
     shdjghjwsagysuidyfg
     ala ma kota
+
+
+    
+
     printf("\nt1: ");
     for(size_t i = 0; i<3; ++i) {
         printf("%s ",t1[i]);
@@ -32,17 +56,30 @@ int main(void) {
     for(size_t i = 0; i<3; ++i) {
         printf("%s ",t2[i]);
     }
+
+    printf("=)");
     printf("\nt3: ");
+
+    printf("t0: ");
+
     for(size_t i = 0; i<3; ++i) {
-        printf("%s ",t3[i]);
+        for(size_t j = 0; j<5; ++j) {
+            printf("%c",t0[i][j]);
+        }
     }
+
+    
     printf("\n");
     
     hfghjtfyktyfugk
 fgefhe
     printf("Ile bajtow zajmuja tablice: %d %d %d %d\n",sizeof(t0),sizeof(t1),sizeof(t2),sizeof(t3));
+    printf("\nt3: ");
+    for(size_t i = 0; i<3; ++i) {
+        printf("%s ",t3[i]);
+    }
     
     char *p_ma = "ma";
-    printf("Adresy pod ktorymi jest zpisane slowo \"ma\": \n%p t0,\n%p t1,\n%p t2,\n%p t3,\n%p literal\n", t0[1], t1[1], t2[1], t3[1], p_ma);
+    printf("Adresy pod ___ ktorymi jest zpisane slowo \"ma\": \n%p t0,\n%p t1,\n%p t2,\n%p t3,\n%p literal\n", t0[1], t1[1], t2[1], t3[1], p_ma);
     return 0;
 }
