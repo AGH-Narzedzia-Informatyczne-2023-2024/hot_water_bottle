@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
 //a place for your conflicts
 int main(void) {
 
@@ -28,7 +30,11 @@ int main(void) {
         printf("%s ",t2[i]);
     }
 
+    printf("=)");
+    printf("\nt3: ");
+
     printf("t0: ");
+
     for(size_t i = 0; i<3; ++i) {
         for(size_t j = 0; j<5; ++j) {
             printf("%c",t0[i][j]);
