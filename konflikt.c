@@ -11,7 +11,7 @@ int main(void) {
     char *t3[3]    = {"Ala","ma","kota"};
 
 // Wstepne wypelnienie tablicy _____ t0:
-
+// added something here too
 
     char *p;
     for(p=(char*)t0; p<(char*)t0+15; ++p) *p = '_';
@@ -38,12 +38,6 @@ int main(void) {
     for(size_t i = 0; i<3; ++i) {
         printf("%s ",t2[i]);
     }
-
-    printf("=)");
-    printf("\nt3: ");
-
-    printf("t0: ");
-
     for(size_t i = 0; i<3; ++i) {
         for(size_t j = 0; j<5; ++j) {
             printf("%c",t0[i][j]);
