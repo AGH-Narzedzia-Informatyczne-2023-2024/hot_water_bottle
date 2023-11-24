@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
 
 int main(void) {
 
@@ -30,6 +32,7 @@ int main(void) {
     for(size_t i = 0; i<3; ++i) {
         printf("%s ",t2[i]);
     }
+    printf("=)");
     printf("\nt3: ");
     for(size_t i = 0; i<3; ++i) {
         printf("%s ",t3[i]);
