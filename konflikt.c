@@ -36,7 +36,18 @@ _ _`.    \  |  |  |  /    .'_ _
     t0[2][0]='k'; t0[2][1]='o'; t0[2][2]='t'; t0[2][3]='a'; 
     
 
+    printf("t0: ");
+    for(size_t i = 0; i<3; ++i) {
+        for(size_t j = 0; j<5; ++j) {
+            printf("%c",t0[i][j]);
+        }
+    }
+    shdjghjwsagysuidyfg
+    ala ma kota
+
+
     
+
     printf("\nt1: ");
     for(size_t i = 0; i<3; ++i) {
         printf("%s ",t1[i]);
@@ -59,7 +70,9 @@ _ _`.    \  |  |  |  /    .'_ _
 
     
     printf("\n");
-
+    
+    hfghjtfyktyfugk
+fgefhe
     printf("Ile bajtow zajmuja tablice: %d %d %d %d\n",sizeof(t0),sizeof(t1),sizeof(t2),sizeof(t3));
     printf("\nt3: ");
     for(size_t i = 0; i<3; ++i) {
