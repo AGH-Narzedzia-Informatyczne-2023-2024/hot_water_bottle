@@ -13,7 +13,7 @@ Linki:
  - [opis hardware'u sterownika](docs/circuit.md)
 
 
-## Autory
+## Autorzy
 
 * **Juliusz Kocinski**
 * **Margarita Kitaeva**
