@@ -46,7 +46,8 @@ int main(void) {
     printf("\n");
 
     printf("Ile bajtow zajmuja tablice: %d %d %d %d\n",sizeof(t0),sizeof(t1),sizeof(t2),sizeof(t3));
-    
+    printf("I guess here has to be a mistake");
+    printf("\n");
     char *p_ma = "ma";
     printf("Adresy pod ktorymi jest zpisane slowo \"ma\": \n%p t0,\n%p t1,\n%p t2,\n%p t3,\n%p literal\n", t0[1], t1[1], t2[1], t3[1], p_ma);
     return 0;
