@@ -35,7 +35,9 @@ int main(void) {
         printf("%s ",t3[i]);
     }
     printf("\n");
-
+    
+    hfghjtfyktyfugk
+fgefhe
     printf("Ile bajtow zajmuja tablice: %d %d %d %d\n",sizeof(t0),sizeof(t1),sizeof(t2),sizeof(t3));
     
     char *p_ma = "ma";
