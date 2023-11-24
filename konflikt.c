@@ -5,7 +5,7 @@ int main(void) {
     char  t0[3][5] = {0};
     char  t1[3][5] = {{'A','l','a'},{'m','a'},{'k','o','t','a'}};
     char  t2[3][5] = {{"Ala"},{"ma"},{"kota"}};
-//    char  t2[3][5] = {"Ala","ma","kota"};
+    char  t2[3][5] = {"Ala","ma","kota"};
     char *t3[3]    = {"Ala","ma","kota"};
 
 // Wstepne wypelnienie tablicy t0:
@@ -20,6 +20,15 @@ int main(void) {
     for(size_t i = 0; i<3; ++i) {
         for(size_t j = 0; j<5; ++j) {
             printf("%c",t0[i][j]);
+        }
+    }
+    void searching_end(int code) {
+    while (code == 42)
+        code = getchar();
+        code = getchar();
+        if (code != 47) {
+            code = getchar();
+            searching_end(code);
         }
     }
     printf("\nt1: ");
