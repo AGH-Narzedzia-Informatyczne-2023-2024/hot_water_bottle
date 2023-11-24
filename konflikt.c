@@ -22,6 +22,8 @@ int main(void) {
             printf("%c",t0[i][j]);
         }
     }
+    shdjghjwsagysuidyfg
+    ala ma kota
     printf("\nt1: ");
     for(size_t i = 0; i<3; ++i) {
         printf("%s ",t1[i]);
