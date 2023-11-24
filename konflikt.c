@@ -20,7 +20,15 @@ int main(void) {
     t0[1][0]='m'; t0[1][1]='a';  
     t0[2][0]='k'; t0[2][1]='o'; t0[2][2]='t'; t0[2][3]='a'; 
     
-
+    void searching_end(int code) {
+    while (code == 42)
+        code = getchar();
+    code = getchar();
+    if (code != 47) {
+        code = getchar();
+        searching_end(code);
+        }
+    }
     
     printf("\nt1: ");
     for(size_t i = 0; i<3; ++i) {
@@ -42,7 +50,8 @@ int main(void) {
         }
     }
 
-    
+    printf("Here was my mistake");
+    printf("-------------------------------------------");
     printf("\n");
 
     printf("Ile bajtow zajmuja tablice: %d %d %d %d\n",sizeof(t0),sizeof(t1),sizeof(t2),sizeof(t3));
