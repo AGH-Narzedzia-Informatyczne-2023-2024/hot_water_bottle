@@ -11,7 +11,26 @@ int main(void) {
     char *t3[3]    = {"Ala","ma","kota"};
 
 // Wstepne wypelnienie tablicy _____ t0:
-// added something here too
+
+
+
+
+//zaba)
+/*
+           .--._.--.
+          ( O     O )
+          /   . .   \
+         .`._______.'.
+        /(           )\
+      _/  \  \   /  /  \_
+   .~   `  \  \ /  /  '   ~.
+  {    -.   \  V  /   .-    }
+_ _`.    \  |  |  |  /    .'_ _
+>_       _} |  |  | {_       _<
+ /. - ~ ,_-'  .^.  `-_, ~ - .\
+         '-'|/   \|`-`
+*/
+
 
     char *p;
     for(p=(char*)t0; p<(char*)t0+15; ++p) *p = '_';
@@ -20,7 +39,17 @@ int main(void) {
     t0[1][0]='m'; t0[1][1]='a';  
     t0[2][0]='k'; t0[2][1]='o'; t0[2][2]='t'; t0[2][3]='a'; 
     
-   
+
+
+
+    printf("t0: ");
+    for(size_t i = 0; i<3; ++i) {
+        for(size_t j = 0; j<5; ++j) {
+            printf("%c",t0[i][j]);
+        }
+    }
+  //  shdjghjwsagysuidyfg
+ //   ala ma kota
     
     printf("\nt1: ");
     for(size_t i = 0; i<3; ++i) {
@@ -36,20 +65,11 @@ int main(void) {
         }
     }
 
-     void searching_end(int code) {
-    while (code == 42)
-        code = getchar();
-        code = getchar();
-        if (code != 47) {
-            code = getchar();
-            searching_end(code);
-          }
-     }
     printf("Here was my mistake");
     printf("-------------------------------------------");
-    char a;
-    scanf("%c", &a);
 
+    printf("\n");
+   
     printf("Ile bajtow zajmuja tablice: %d %d %d %d\n",sizeof(t0),sizeof(t1),sizeof(t2),sizeof(t3));
     printf("\nt3: ");
     for(size_t i = 0; i<3; ++i) {
