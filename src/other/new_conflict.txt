@@ -1,4 +1,5 @@
 Here is some text.
   Here is some more.
 
-add something else
+This change is the right one:
+added a change
