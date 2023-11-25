@@ -3,3 +3,5 @@ Here is some text.
 
 This change is the right one:
 added a change
+
+Conflict was successfully resolved
