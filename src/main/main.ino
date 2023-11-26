@@ -8,14 +8,14 @@
 ///@todo Add pins. Remember to add channels to the PWM clock mentioned below.
 
 //clock 1
-int HWpin = 
-int Rpin = 
+int HWpin = 7
+int Rpin = 6
 //clock 2
-NWpin = 
-Gpin = 
+NWpin = 9
+Gpin = 0
 //clock 3
-CWpin =
-Bpin =
+CWpin =8
+Bpin =5
 
 ///@todo Depending on version similar function to every button switch is needed
 
