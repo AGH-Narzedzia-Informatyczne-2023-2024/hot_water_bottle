@@ -8,6 +8,7 @@
 ///@todo Add pins. Remember to add channels to the PWM clock mentioned below.
 
 //clock 1
+
 int HWpin = 5;
 int Rpin = 6;
 //clock 2
